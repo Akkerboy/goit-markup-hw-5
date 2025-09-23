@@ -721,7 +721,6 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 16px;
     border-radius: 4px;
     padding-block: 8px;
     padding-inline: 24px;
@@ -730,6 +729,10 @@ p {
     background-color: #4d5ae5;
     border: none;
     color: #ffffff;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 
 }
 
@@ -742,6 +745,7 @@ p {
     width: 24px;
     height: 20px;
     fill: #ffffff;
+    margin-left: 16px;
 }
 
 
