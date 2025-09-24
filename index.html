@@ -503,11 +503,11 @@
              
             </div>
             <div class="modal-field">
-                <label class="modal-input-label" for="user-message">Comment</label>
+                <label class="modal-input-label" for="user-comment">Comment</label>
                     <div class="input-wrapper">
                         <textarea class="modal-textarea" 
-                        name="user-message"
-                        id="user-message" 
+                        name="user-comment"
+                        id="user-comment" 
                         placeholder="Text input"
                         ></textarea>
                     </div>
@@ -516,23 +516,23 @@
             <div class="modal-field">
               <input class="modal-checkbox visually-hidden" 
               type="checkbox" 
-              name="user-agreement" 
-              id="user-agreement"
-              value="agree">
+              name="user-privacy" 
+              id="user-privacy"
+              value="true">
                         <label class="modal-checkbox-label" 
-                        for="user-agreement"><span class="modal-checkbox-mark">
+                        for="user-privacy"><span class="modal-checkbox-mark">
                             <svg class="icon-check-mark" width="10" height="8">
                                 <use href="./images/icons.svg#icon-check-mark"></use>
                              </span>
                              I accept the terms 
-                        and conditions of the <a href="">Privacy Policy</a>
-                        </label>
+                               and conditions of the <a class="user-privacy-link" href="">Privacy Policy</a></label>
                     </div>
+                    <button class="modal-submit-button" type="submit">Send</button>
                 </div>
                             
-                   <button class="modal-submit-button" 
+                   <!-- <button class="modal-submit-button" 
                    type="submit">Send
-                </button> 
+                </button>  -->
         </form>
    </div>
  </div>
