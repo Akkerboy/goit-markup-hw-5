@@ -853,6 +853,7 @@ fill: #ffffff
 
 .modal-field{
     padding: 72px 24px 24px 24px;
+    margin-bottom: 8px;
     
 }
 
@@ -987,7 +988,6 @@ border-color: #4D5AE5;
 
 
 .modal-checkbox-mark{
-    display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -995,6 +995,7 @@ border-color: #4D5AE5;
     margin-right: 8px;
     display: inline-block;
     display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
