@@ -906,7 +906,7 @@ form .modal-field:last-child {
 }
 
 .modal-input-label {
-    display: block;
+    /* display: block; */
     font-size: 12px;
     letter-spacing: 0.04em;
     color: #8e8f99;
